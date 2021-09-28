@@ -1,0 +1,68 @@
+@font-face
+{
+ font-family: "LongShot";
+ src: url("Long_Shot.ttf");
+}
+
+body
+{
+ background-image: url("BG.jpeg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ font-family: "LongShot";
+ letter-spacing: 3px;
+ color: red;
+ font-size: x-large;
+}
+  
+a
+{
+ color: white;
+ text-decoration: none;
+}
+  
+#divOutput
+{
+ 	border: 1px solid black;
+}
+  
+ #myTxt
+{
+ width: 75%;
+ height: 45px;
+ border: 3px solid red;
+ border-radius: 50px;
+ background-color: black;
+ color: red;
+ font-size: x-large;
+ position: fixed;
+ bottom: 0px;
+ left: 0%;
+ font-family: "LongShot";
+ letter-spacing: 1px;
+ padding: 10px;
+}
+   
+#divInput img
+{
+ width: 75px;
+ height: 75px;
+ background-color: white;
+ border: 3px solid red;
+ border-radius: 50%;
+ position: fixed;
+ bottom: 0%;
+ right: 0%;
+}
+
+#divOutput h1
+{
+	color: red;
+}
+
+h1
+{
+	font-size: x-large;
+	color: white;
+}
